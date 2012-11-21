@@ -16,7 +16,7 @@ File `ckeditor/plugins/uploader/uploader.php`
 		'access_types' =>array('jpeg', 'jpg', 'png', 'bmp', 'gif',), // allowed extensions file
 		'folder' => $_SERVER['DOCUMENT_ROOT'].'/images/',// full path
 		'use_md5'=>true, // change the name on the md5 hash
-		'replace'=>false, // replace the file with the same name, only works with us
+		'replace'=>false, // replace the file with the same name, only works with use_md5
 	);
 
 1. [Demo][demo]
