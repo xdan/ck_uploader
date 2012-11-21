@@ -3,6 +3,8 @@ CKEditor Plugin Uploader
 ckeditor plugin for fast upload image to editor.
 Install
 ------------
+Create folder `ckeditor/plugins/uploader` and unpack archive to 
+
 File `ckeditor/config.js`
 
 	CKEDITOR.editorConfig = function( config ){
